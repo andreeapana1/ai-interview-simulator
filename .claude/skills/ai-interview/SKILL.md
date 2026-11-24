@@ -75,6 +75,7 @@ Then grade every answer against its source, and give the feedback in this format
 ```
 
 Rules for feedback:
+- Grade each answer on **what that question asked**. Only the must-know points a good answer to that specific question needs count for the verdict and for "Knowledge gaps". Never lower a verdict for leaving out points the question did not ask about; at most, mention two or three such related points in "What to review", labelled "Related, for the exam".
 - Every correction must name its source file (and a `[mm:ss]` timestamp for video transcripts when you can find one).
 - "Knowledge gaps" = missing or vague; "Incorrect answers" = actually wrong statements. Don't list the same thing twice.
 - Recommend at most five review items, ordered by importance.
